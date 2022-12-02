@@ -12,6 +12,7 @@ for l in input_lines
 end
 
 calories = sort(calories, rev=true)[begin:3]
-print(sum(calories))
+println(sum(calories[begin:1]))
+println(sum(calories))
 
 
